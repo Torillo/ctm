@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/ctm-header.ejs %>
+    <title>Formulario</title>
+</head>
+<body class="mainf">
+    <div class="animate__animated animate__rubberBand Subtform">
+        <h2>Formulario de solicitud de nuevo personaje</h2>
+    </div>
+    <div class="content animate__animated animate__fadeIn">
+        <div class="form-main">
+            <form action="">
+                <p>
+                    <label for="fullname">Nombre o Pseudomino tuyo</label>
+                    <input type="text" name="fullname" id="fullname">
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </p>
+                <p>
+                    <label for="nombrep">Nombre del personaje</label>
+                    <input type="text" name="nombrep" id="nombrep">
+                </p>
+                <p>
+                    <label for="info">Descripción o Historia del personaje</label>
+                    <textarea name="info" id="info" rows="5"></textarea>
+                </p>
+                <p>
+                    <label for="foto">Foto</label>
+                    <input type="file" name="foto" id="foto">
+                </p>
+                <p>
+                    <img src="/assets/images/tenor.gif" style="width: 100%;height: 100%;">
+                </p>
+                <div class="block">
+                    <p>
+                        <button type="submit"> Send </button>
+                    </p>
+                </div>
+            </form>
+        </div>
+        <div class="info">
+            <h2>Requisistos</h2>
+            <ul>
+                <li>Solicitud llenada y envíada en viernes</li>
+                <li>Tamaño de imagen 200 x 200</li>
+                <li>PNG o JPG</li>
+                <li>El fin de la solicitud debe estar basado en humor</li>
+                <li>Se necesita información del personaje para poder revisar las intenciones</li>
+                <li>
+                    <a href="">mas información</a>
+                </li>
+            </ul>
+            <p>
+                <img src="/assets/images/tenor.gif" alt="">
+            </p>
+        </div>
+    </div>
+</body>
+</html>
